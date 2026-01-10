@@ -1,6 +1,3 @@
-
-
-
 *{
    margin: 0;
    padding: 0;
@@ -15,11 +12,12 @@
    display: flex;
    justify-content: space-between;
    align-items:center;
-   background-color: #ffffff;
+   background-color: #e48080;
 }
 .logo img{
    width: 100px;
 }
+
 
 nav ul{
    display: flex;
@@ -67,10 +65,104 @@ h1{
 h1 span{
    color: #469165;
 }
-p{
+.hero-content p{
    color: #ffffff;
    font-size: 18px;
    margin-top: 16px;
    line-height: 24px;
 }
 
+#about .about-container{
+   max-width: 1600px;
+   margin: 0 auto;
+   /* background-color: beige; */
+   padding: 0px 120px;
+   
+}
+.section-heading{
+   width: 1360px;
+   text-align: center;
+   margin: 0 auto;
+   /* background-color: aquamarine; */
+}
+.section-heading h2{
+   font-size: 48px;
+   padding-top: 50px;
+   color: #001931;
+   font-weight:bold;
+
+}
+.section-heading p{
+   font-size: 16px;
+   margin-top: 16px;
+   color: #627382;
+}
+
+.card{
+   display: flex;
+   gap : 30px;
+   margin-top: 40px
+}
+.card-box{
+  padding: 24px;
+  max-width: 322px;
+  height: 300px;
+  box-shadow: 0px 0px 8px 0 #00000027;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-box img{
+   width: 30px;
+   background-color:#F95555 ;
+   padding:8px;
+   border-radius: 50%;
+   margin: 10px 0 20px 0;
+}
+.card-box h3{
+   font-size: 24px;
+   color: #001931;
+   font-weight: 700;
+}
+.card-box p{
+   font-size: 16px;
+   margin-top: 16px;
+   color: #627382;
+   line-height: 20px;
+}
+
+.cta{
+   max-width: 1600px;
+   margin: 0 auto;
+   background-color: #FFFFFF;
+   padding:0px 120px 120px 120;
+   text-align: center;
+   
+}
+.cta-contianer{
+   max-width: 1360px;
+   padding: 80px 40px;
+   background-color: #F7F6F2;
+}
+/* FOOTER */
+.footer-container{
+   max-width: 1600px;
+   margin: 0 auto;
+   background-color: #001931;
+   padding: 120px 120px 0px 120px;
+
+   
+}
+.footer-content{
+   width: 1360px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.icon .fa-brands{
+   color: #ffffff;
+   cursor: pointer;
+}
