@@ -12,7 +12,7 @@
    display: flex;
    justify-content: space-between;
    align-items:center;
-   background-color: #e48080;
+   /* background-color: #e48080; */
 }
 .logo img{
    width: 100px;
@@ -134,7 +134,7 @@ h1 span{
    line-height: 20px;
 }
 
-.cta{
+.cta-container{
    max-width: 1600px;
    margin: 0 auto;
    background-color: #FFFFFF;
@@ -142,11 +142,28 @@ h1 span{
    text-align: center;
    
 }
-.cta-contianer{
+.cta-content{
    max-width: 1360px;
    padding: 80px 40px;
    background-color: #F7F6F2;
+   margin: 0 auto;
 }
+.cta-content h2{
+   font-size: 40px;
+   color: #001931;
+   font-weight: bold;
+   margin-bottom: 16px;
+}
+.cta-content p{
+   color: #627382;
+   font-size: 16px;
+   margin-bottom: 24px;
+   line-height: 24px;
+}
+.cta-btn{
+   margin-bottom: 24px;
+}
+
 /* FOOTER */
 .footer-container{
    max-width: 1600px;
@@ -161,8 +178,15 @@ h1 span{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-bottom:80px;
 }
 .icon .fa-brands{
    color: #ffffff;
    cursor: pointer;
+}
+.footer p{
+   color: #627382;
+   font-size: 16px;
+   text-align: center;
+   margin-bottom: 40px;
 }
